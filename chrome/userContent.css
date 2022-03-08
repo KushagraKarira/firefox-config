@@ -1,3 +1,7 @@
+@-moz-document url("about:newtab"), url("about:home") {
+ body { background-color: #333333 !important;}
+}
+
 @-moz-document url("about:home"), url("about:newtab") {
   .top-site-outer .tile .icon-wrapper { 
     width: 80px !important; 
