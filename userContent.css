@@ -1,7 +1,19 @@
 @import "firefox-gnome-theme/userContent.css";
-@-moz-document url("about:home"), url("about:newtab") {
-  .top-site-outer .tile .icon-wrapper { 
-    width: 80px !important; 
-    height: 80px !important; 
-  } 
+@-moz-document
+  url-prefix(about:newtab),
+  url-prefix(about:home) {
+   .top-site-outer .tile .icon-wrapper {
+     height: 100% !important;
+     width: 100% !important;
+   }
+   .top-site-outer .default-icon,
+   .top-site-outer .search-topsite {
+     background-size: 100% !important;
+     height: 100% !important;
+     width: 100% !important;
+  }
+  .top-site-outer .search-topsite {
+     height: 32px !important;
+     width: 32px !important;
+  }
 }
