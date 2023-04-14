@@ -1,0 +1,7 @@
+@import "firefox-gnome-theme/userContent.css";
+@-moz-document url("about:home"), url("about:newtab") {
+  .top-site-outer .tile .icon-wrapper { 
+    width: 80px !important; 
+    height: 80px !important; 
+  } 
+}

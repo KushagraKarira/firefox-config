@@ -1,0 +1,6 @@
+@import "firefox-gnome-theme/userChrome.css";
+#context_sendTabToDevice, #context_sendTabToDevice_separator  {display: none !important;}
+#context-sendpagetodevice, #context-sep-sendpagetodevice  {display: none !important;}
+#contentAreaContextMenu #context-sendlinktodevice,
+#contentAreaContextMenu #context-sep-sendlinktodevice {display: none !important;}
+
